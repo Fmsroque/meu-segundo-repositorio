@@ -1,0 +1,59 @@
+
+
+/*
+Especificidade / Hierarquia
+
+1º Inline
+2º ID
+3º Classe
+4º Elemento
+
+*/
+
+hi {
+    color:blue;
+}
+
+.title-trusted{
+    color: orange;
+
+}
+
+input{
+    border-radius: 20px;
+    border: 1px solid gray;
+    background-color: lightskyblue;
+    padding: 10px;
+   }
+
+
+
+#inputname{
+    background-color: rgb(224, 221, 39);
+}
+
+.form-label{
+    width: 100%;
+    font-size: 24px;
+    color: rgb(42, 21, 230);
+    margin-right: 10px;
+}
+
+*{font-family: sans-serif;}
+
+.trusted-logo{
+
+    border: 5px solid red;
+    background-color: darkgray;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+<style>
+            p{
+                font-size: 24px; 
+                background-color: rgb(169, 169, 201);
+            }
+         
+</style>
